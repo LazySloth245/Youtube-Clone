@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lesson 11 | CSS Grid</title>
+  <link rel="stylesheet" href="css/lesson-11.css">
+</head>
+
+<body>
+  <div style="
+    display: grid;
+    grid-template-columns: 100px 100px;
+  ">
+    <div style="
+      background-color: lightblue;">
+      div 1</div>
+    <div style="
+      background-color: lightpink;">
+      div 2</div>
+  </div>
+
+  <div style="
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+  ">
+    <div style="background-color: lightblue;
+    height: 200px;
+    ">1fr</div>
+    <div style="background-color: lightpink;
+    height: 200px;
+    ">1fr</div>
+    <div style="background-color: lightblue;
+    height: 200px;
+    ">1fr</div>
+    <div style="background-color: lightpink;
+    height: 200px;
+    ">1fr</div>
+    <div style="background-color: lightblue;
+    height: 200px;
+    ">1fr</div>
+    <div style="background-color: lightpink;
+    height: 200px;
+    ">1fr</div>
+  </div>
+
+  <div style="
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+    margin-top: 50px;
+  ">
+    <div style="background-color:lightpink;">col1</div>
+    <div style="background-color:lightpink;">col2</div>
+    <div style="background-color:lightpink;">col3</div>
+    <div style="background-color:lightpink;">col4</div>
+    <div style="background-color:lightpink;">col1</div>
+    <div style="background-color:lightpink;">col2</div>
+    <div style="background-color:lightpink;">col3</div>
+    <div style="background-color:lightpink;">col4</div>
+  </div>
+
+  <div style="
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 180px 180px 180px;
+  column-gap: 18px;
+  ">
+    <div style="
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.3);
+    ">
+      <img src="image/Oliver.jpeg" style="
+      height: 180px;
+      width: 100%;
+      object-fit: cover;">
+
+      <div style="
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      margin: 10px 0 5px 8px;
+      ">
+      Oliver</div>
+
+      <div style="
+      display: grid;
+      grid-template-columns: 30px 1fr;
+      column-gap: 8px;
+      margin-left: 8px;
+      align-items: center;
+      ">
+        <img src="image/Me.jpeg" style="
+        width: 100%;
+        height: 30px;
+        object-fit: cover;
+        border-radius: 15px;
+        ">
+        <div style="
+        font-family: Arial, Helvetica, sans-serif;
+        color: grey;
+        font-size: 14px;
+        ">
+        2 mutual friends</div>
+      </div>
+
+      <button style="
+      margin: 8px;
+      border: none;
+      border-radius: 3px;
+      color: white;
+      background-color: rgba(21, 123, 226, 0.918);
+      padding: 8px 20px;
+      ">
+        Add Friend
+      </button>
+    </div>
+
+    <div style="
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.2);
+    ">
+      <img src="image/Mimi.jpeg" style="
+      height: 180px;
+      width: 100%;
+      object-fit: cover;">
+
+      <div style="
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      margin: 10px 0 5px 8px;
+      ">
+      Mimi</div>
+
+      <div style="
+      display: grid;
+      grid-template-columns: 30px 1fr;
+      column-gap: 8px;
+      margin-left: 8px;
+      align-items: center;
+      ">
+        <img src="image/Me.jpeg" style="
+        width: 100%;
+        height: 30px;
+        object-fit: cover;
+        border-radius: 15px;
+        ">
+        <div style="
+        font-family: Arial, Helvetica, sans-serif;
+        color: grey;
+        font-size: 14px;
+        ">
+        3 mutual friends</div>
+      </div>
+
+      <button style="
+      margin: 8px;
+      border: none;
+      border-radius: 3px;
+      color: white;
+      background-color: rgba(21, 123, 226, 0.918);
+      padding: 8px 20px;
+      ">
+        Add Friend
+      </button>
+    </div>
+
+    <div style="
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.2);
+    ">
+      <img src="image/Rex.jpeg" style="
+      height: 180px;
+      width: 100%;
+      object-fit: cover;">
+
+      <div style="
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      margin: 10px 0 5px 8px;
+      ">
+      Rex</div>
+
+      <div style="
+      display: grid;
+      grid-template-columns: 30px 1fr;
+      column-gap: 8px;
+      margin-left: 8px;
+      align-items: center;
+      ">
+        <img src="image/Me.jpeg" style="
+        width: 100%;
+        height: 30px;
+        object-fit: cover;
+        border-radius: 15px;
+        ">
+        <div style="
+        font-family: Arial, Helvetica, sans-serif;
+        color: grey;
+        font-size: 14px;
+        ">
+        4 mutual friends</div>
+      </div>
+
+      <button style="
+      margin: 8px;
+      border: none;
+      border-radius: 3px;
+      color: white;
+      background-color: rgba(21, 123, 226, 0.918);
+      padding: 8px 20px;
+      ">
+        Add Friend
+      </button>
+    </div>
+  </div>
+</body>
+</html>
